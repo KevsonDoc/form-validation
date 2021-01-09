@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+  
+  <title>Validation Form</title>
+</head>
+<body>
+  <main>
+    <div class="container-theme">
+      <img src="./assets/lua-crescente.png" alt="dark theme">
+      <input type="checkbox" name="radio" id="radio">
+      <img src="./assets/sun.png" alt="light theme">
+    </div>
+
+    <section class="form">
+      <form>
+        <h1>Cadastro</h1>
+        <fieldset class="data">
+          <label for="namme">Name</label>
+          <input type="text" name="name" id="name" placeholder="Alisson Santos">
+          <span></span>
+  
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="@proverdor.com">
+          <span></span>
+
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" placeholder="password">
+          <span></span>
+
+          <label for="confirm-password">Retype your password</label>
+          <input type="password" name="confirm-password" id="confirm-password" placeholder="password">
+          <span></span>
+
+          <label for="data-birth">Date of birth</label>
+          <input type="date" name="data-birth" id="data-birth">
+          <span></span>
+
+        </fieldset>
+        <button type="submit">
+          Sign in
+        </button>
+      </form>
+    </section>
+    <section class="enterprise">
+      <h1>A Jornada</h1>
+      <h2>
+        O espaço: a fronteira final. Estas são as viagens da nave estelar Enterprise. Em sua missão de cinco anos... para explorar novos mundos... para pesquisar novas formas de vida e novas civilizações... audaciosamente indo onde nenhum homem jamais esteve.
+      </h2>
+    </section>
+  </main>
+  <script src="./javascript/validation.js"></script>
+</body>
+</html>
