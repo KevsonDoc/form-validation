@@ -113,7 +113,7 @@ button.addEventListener("click", (event) => {
 
   if (!validation.length <= 0) {
     form.classList.add("validation-erro");
-    form.style.border = "1px solid #FF0000";
+    form.style.border = "1px solid #FFFF00";
 
     const formErroAnimation = document.querySelector(".validation-erro");
 
